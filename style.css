@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding:15px
+    ;
+}
+
+h1{
+    font-size: medium;
+}
+
+
+
+
+/* here is a comment  */
+/* line
+line
+line */
+/*
+.box{
+    background-image: u
+*/
+body {
+    background-image: url("neonbackground.jpeg") ;
+    background-repeat: repeat;
+    background-position: right top;
+    background-attachment: scroll;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow:scroll;
+    
+  }
+
+  
+/*font-family - wont work
+if it did -- import@url('--link--')
+*/
+
+
+h1,h2,h3{
+    color: blueviolet;
+    font-size:50px;
+    border-style: outset;
+    background-color: rgb(240, 255, 255);
+    -webkit-box-reflect : below 1px linear-gradient(transparent, #0004);
+    
+    outline: none;
+    animation: animate 3s linear infinite;
+
+}
+@keyframes animate{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color: #0e3742
+        box-shadow: none;
+    }
+    100%{
+        color: #fff;
+        box-shadow: 0 0 10px #03bcf4,
+                    0 0 20px #03bcf4,
+                    0 0 40px #03bcf4,
+                    0 0 80px #03bcf4,
+                    0 0 160px #03bcf4,
+        
+
+
+    }
+}
+
+
+
+
+}
+
+h2 {
+    background-color:white;
+}
+
+#nav {
+     font-size: 30px;
+
+}
+
+
+#nav {
+    border-style: solid;
+    border-color: white;
+    border-inline-color: white;
+    background-color: rgb(84, 214, 108);
+    width: 300px;
+    height: 100px;
+    
+    border-radius: 100px / 50px;
+    
+}
+
+
+
+#nav {
+    background-color: url("neonbackground.jpeg");
+    height:60px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+#nav a{
+    color:blue;
+    font-family: fantasy;
+    font-size: 20px;
+    text-decoration: none;
+    border-color: blue;
+
+}
+
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+  }
+
+#nav a:hover{
+    color:peru;
+}
+#image {
+    width:60%;
+}
+
+.home{
+    color:red;
+}
+
+
+p{
+    color: rgb(64, 221, 16);
+    background-color: aliceblue;
+}
+
+.resize{
+    width:100%;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-instagram {
+    background:#076fab;
+    
+
+}
+
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:arial;
+
+}
+
+
+span {
+    content: "\2193";
+    color: white;
+    width: 200px;
+
+}
